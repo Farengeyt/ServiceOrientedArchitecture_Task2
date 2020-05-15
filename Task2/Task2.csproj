@@ -69,7 +69,9 @@
   <ItemGroup>
     <Content Include="index.html" />
     <Content Include="ServiceProcessing.js" />
+    <Content Include="ServiceProcessingWithoutJquery.js" />
     <Content Include="StudentListWebService.asmx" />
+    <Content Include="style.css" />
     <Content Include="Web.config" />
     <Content Include="StudentXML.xml" />
   </ItemGroup>

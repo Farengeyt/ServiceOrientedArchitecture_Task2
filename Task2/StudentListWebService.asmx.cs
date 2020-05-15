@@ -57,7 +57,7 @@ namespace Task2
         }
         [WebMethod]
         [ScriptMethod(ResponseFormat = ResponseFormat.Json)]
-        public Student[] GetStudentsInRange(float minMark, float maxMark)
+        public Student[] GetStudentsInRange(float minMark = 0, float maxMark = 5)
         {
             var pathToFile = HostingEnvironment.MapPath("~/StudentXML.xml");
             XmlSerializer formatter = new XmlSerializer(typeof(Student[]));
